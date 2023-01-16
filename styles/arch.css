@@ -1,0 +1,423 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: #ff900e1a;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav li {
+
+    text-align: center;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-t {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    ;
+}
+
+/* first sect  */
+.h-head {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.head {
+    text-align: center;
+}
+
+.block {
+    text-align: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 64px;
+    color: #131313;
+}
+
+.p-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn input {
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.head .pic img {
+    display: inline-block;
+    width: 100%;
+    align-items: center
+}
+
+.pic {
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+}
+
+/* grid sections */
+.b-container {
+    width: 100%;
+    text-align: center;
+}
+
+.team {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.t-member {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.t-head {
+    display: block;
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.t-head .bold {
+    color: #131313
+}
+
+.t-head .feature {
+    color: #FF900E;
+}
+
+.p-detail {
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-p input {
+    width: 180px;
+    height: 64px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    margin-top: 32px;
+}
+
+/* third sections */
+.c-container {
+    width: 100%;
+
+}
+.archi {
+    display: flex;
+    margin-top: 30px;
+  margin-left: 240px;
+  margin-right: 240px;
+}
+.archi .version {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+
+}
+
+.version .title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.title {
+    border-left: 5px solid #FF900E;
+}
+
+.version .t-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.inner {
+    display: block;
+}
+
+.inner .pain {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.inner .d-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.banner img {
+    display: inline-block;
+    width: 100%;
+    justify-items: center;
+}
+
+.banner .strong {
+    height: 200px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+
+.strong #unique {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* fourth sections */
+.d-container {
+    margin-top: 20px;
+    align-items: left;
+}
+
+.facts {
+    display: inline-block;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+
+#f-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+#f-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.logo {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 120px;
+}
+
+.icon {
+    padding: 45px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: scale(0.75);
+}
+.icon:hover{
+    transform: scale(1);
+}
+
+.routine {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.r-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* -------------last sections------- */
+.e-container {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.sponsor {
+    text-align: center;
+    justify-content: center;
+    mix-blend-mode: luminosity;
+}
+
+.spnsr-c {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+#company {
+    margin-bottom: 50px;
+    margin-left: 689px;
+    margin-right: 689px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+#c-detail {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.logos {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.logos .a img {
+    mix-blend-mode: color-burn;
+}
+
+/* ----------------- */
+.foot{
+    width: 100%;
+    border: 2px solid skyblue;
+    display: block;
+    border-radius: 8px;
+    margin-top: 30px;
+    background-color: #FFF4E7;
+    text-align: center;
+}
+
+.finish {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    height: 23px;
+}
+/* ---------
+query starts
+ -----------*/
+/* responsive styles */
+
+
+@media only screen and (max-width: 688px) {
+
+    nav{
+        height: 100%;
+        flex-direction: column;
+    }
+    nav ul {
+       flex-direction: column;
+    
+    }
+    .pic{
+        align-items: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .team{
+        display: grid;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .t-member{
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .t-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .archi{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+    .facts{
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    #company{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #c-detail{
+        font-size: 18px;
+    }
+    .logos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .finish{
+        text-align: center;
+    }
+}
